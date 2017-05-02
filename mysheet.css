@@ -1,0 +1,241 @@
+/* ABOUT */
+#ABOUT {
+    background: url(Home.jpg) no-repeat center ;
+    background-size: cover;
+    margin-top:50px; 
+}
+#ABOUT .container {
+    width: 100%;
+    margin-top: -10px;
+    padding-bottom: 15px;
+    background: rgba(66, 39, 15, 0.35);
+}
+
+#ABOUT h1 {
+    padding-top: 10%;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    color:white;
+}
+
+.SelfIntroduction {
+    padding-top: 8%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 8%;
+    font-size:1em;
+    font-family: "Times New Roman", Georgia, Serif;
+    text-align: center;
+    color:white;
+    
+}
+
+@media only screen and (min-width : 500px) {
+
+    .SelfIntroduction {
+        padding-top: 8%;
+        padding-left: 22%;
+        padding-right: 22%;
+        padding-bottom: 15%;
+        font-size: 1.5em;
+    }
+    #ABOUT h1 {
+        font-size: 4em;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+
+    .SelfIntroduction {
+        padding-top: 4%;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 10%;
+        font-size: 2.4em;
+    }
+    #ABOUT h1 {
+        padding-top: 7%;
+        font-size: 7.5em;
+    }
+}
+
+
+
+
+/* ABOUT end */
+
+
+
+/* BRIEF */
+#BRIEF {
+    padding-top:20px;
+    padding-bottom:40px;
+    background-color: azure;
+}
+
+#BRIEF h1 {
+    padding-top: 40px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.carouselpad {
+    margin-top: 20px;
+}
+
+.CarouselFont {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size:1.5em;
+    font-weight:bold;
+    padding-bottom: 20px;
+}
+
+.briefinfo {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size:1em;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.time {
+    padding-top: 15px;
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size:1em;
+    text-align: center;
+    font-weight: bolder;
+}
+.timeinfo {
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size:1em;
+    text-align: center;
+}
+
+@media only screen and (min-width : 500px) {
+    #BRIEF .carouselpad {
+        padding:0% 10%;
+    }
+    .CarouselFont {
+        font-size:2em;
+    }
+    .briefinfo, .time, .timeinfo {
+        font-size:1.5em;
+    }
+}
+
+@media only screen and (min-width : 992px) {
+    #BRIEF .carouselpad {
+        padding:0% 3%;
+    }
+    .CarouselFont {
+        font-size:2.5em;
+    }
+}
+
+
+/* BRIEF end */
+
+
+/* Story */
+
+#STORY {
+    padding-top:20px;
+    padding-bottom:40px;
+    background-color: wheat;
+}
+
+#STORY h1 {
+    padding-top: 40px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    color: dark;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.storyinfo{
+    font-family: "Times New Roman", Georgia, Serif;
+    font-size:1em;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.citylist {
+    text-align: center;
+    font-family: 'Sonsie One', cursive;
+    font-size: 1em;
+    opacity:0.3;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.citylist:hover {
+    opacity:1;
+}
+
+
+.listdiv a {
+    outline: none;
+    text-decoration:none;
+    color:darkblue;
+}
+
+@media only screen and (min-width : 500px) {
+    .storyinfo {
+        font-size:1.5em;
+    }
+    .citylist {
+        font-size: 1.5em;
+    }
+}
+@media only screen and (min-width : 992px) {
+    .citylist {
+        font-size: 2em;
+    }
+    .storyinfo {
+        padding:0% 5%;
+    }
+}
+
+
+/* Story end */
+
+
+/* FOOTER */
+
+#FOOTER {
+    padding-top:5px;
+    padding-bottom:10px;
+    background-color: darkred;
+    color: white;
+}
+
+#FOOTER h3 {
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+    color: dark;
+    text-align: center;
+
+}
+.footerinfo{
+    text-align: center;
+    font-family: "Times New Roman", Georgia, Serif;
+    color: dark;
+    text-align: center;
+
+}
+
+/* FOOTER END */
+
+
+
+
+
+
+
+
+
+
